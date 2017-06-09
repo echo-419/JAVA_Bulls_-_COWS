@@ -1,0 +1,103 @@
+/*
+Theme name: Theme site Bulls and Cows 1c
+Theme URI: Ludus1C.com
+Autor: maxime bazin
+Description: theme css Bulls Cows
+version: 1.0
+License: Ludus1c
+License URI: Ludus1c.com
+text Domain: ludus1c
+*/
+body{
+	
+		background: url("image/images_B_C.jpg")fixed no-repeat top left,url("image/images_B_C.jpg")fixed no-repeat top right,url("image/fond.jpg")fixed;
+}
+
+h1{
+
+	text-align: center;
+	text-shadow: 2px 2px 4px red;
+	border: 3px inset;
+	border-color: yellow;
+	border-radius: 15px;
+	background-image: url("image/fond2.jpg");
+	font-size: 500%;
+	
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	color: orange;
+}
+
+aside{
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	border: 3px inset;
+	border-color: orange;
+	border-radius: 15px;
+	background-image: url("image/fond2.jpg");
+	
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	color: cyan;
+}
+
+footer{
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	border: 3px inset;
+	border-color: orange;
+	border-radius: 15px;
+	background-image: url("image/fond2.jpg");
+	
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	color: cyan;
+}
+
+table{
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	border: 3px inset;
+	border-color: yellow;
+	border-radius: 15px;
+	background-image: url("image/fond2.jpg");
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+caption{
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input{
+	color: green;
+	width: 45%;
+}
+
+label{
+	color: cyan;
+}
+
+thead{
+	color: cyan;
+}
+input[type=button]{
+	background : orange;
+	border-color: yellow;
+	color: cyan;
+	font-size: 20px;
+}
